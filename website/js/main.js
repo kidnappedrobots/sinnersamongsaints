@@ -6,13 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
   if (toggle && links) {
     toggle.addEventListener('click', () => {
       links.classList.toggle('open');
-      toggle.textContent = links.classList.contains('open') ? '\u2715' : '\u2630';
+      const isOpen = links.classList.contains('open');
+      toggle.textContent = isOpen ? '\u2715' : '\u2630';
+      toggle.setAttribute('aria-expanded', isOpen);
     });
 
     links.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
         links.classList.remove('open');
         toggle.textContent = '\u2630';
+        toggle.setAttribute('aria-expanded', 'false');
       });
     });
   }
