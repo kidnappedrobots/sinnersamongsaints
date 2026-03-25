@@ -418,6 +418,71 @@ h1, h2, h3, h4 {
   margin-bottom: 8px;
 }
 
+.timeline-entry h4 {
+  font-size: 1.05rem;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  color: var(--gold-light);
+}
+
+.timeline-entry ul.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.timeline-entry ul.history-list li {
+  color: var(--text-muted);
+  padding: 6px 0 6px 20px;
+  position: relative;
+  font-size: 0.95rem;
+}
+
+.timeline-entry ul.history-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 8px;
+  height: 2px;
+  background: var(--gold-dim);
+}
+
+.story-quote {
+  border-left: 3px solid var(--gold-dim);
+  margin: 20px 0;
+  padding: 16px 20px;
+  background: rgba(198, 40, 40, 0.04);
+  border-radius: 0 6px 6px 0;
+  font-style: italic;
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.story-quote cite {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 0.85rem;
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.roster-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.roster-grid span {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
 /* ===== MEMBERS TABLE ===== */
 .members-table {
   width: 100%;
