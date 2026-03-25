@@ -26,8 +26,9 @@ jobs:
           port: 21
           protocol: ftp
           local-dir: ./website/
-          server-dir: ./public_html/
+          server-dir: ./
           timeout: 600000
+          dangerous-clean-slate: true
           exclude: |
             **/.DS_Store
             **/.git*
