@@ -124,6 +124,11 @@ h1, h2, h3, h4 {
   margin: 0 auto 40px;
 }
 
+.hero-logo {
+  max-width: 480px;
+  margin: 0 auto 32px;
+}
+
 .hero .meta {
   font-size: 0.875rem;
   color: var(--gold-dim);
