@@ -5,9 +5,9 @@
   --bg-dark: #0a0a0f;
   --bg-card: #12121a;
   --bg-nav: rgba(10, 10, 15, 0.95);
-  --gold: #c9a84c;
-  --gold-light: #e0c872;
-  --gold-dim: #8a6f2f;
+  --gold: #c62828;
+  --gold-light: #ef5350;
+  --gold-dim: #8b1a1a;
   --text: #d4d4d8;
   --text-muted: #71717a;
   --text-bright: #fafafa;
@@ -105,7 +105,7 @@ h1, h2, h3, h4 {
 .hero {
   padding: 160px 24px 100px;
   text-align: center;
-  background: linear-gradient(180deg, rgba(201, 168, 76, 0.08) 0%, transparent 60%);
+  background: linear-gradient(180deg, rgba(198, 40, 40, 0.1) 0%, transparent 60%);
 }
 
 .hero h1 {
@@ -168,7 +168,7 @@ h1, h2, h3, h4 {
 .page-header {
   padding: 120px 24px 60px;
   text-align: center;
-  background: linear-gradient(180deg, rgba(201, 168, 76, 0.06) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(198, 40, 40, 0.08) 0%, transparent 100%);
 }
 
 .page-header h1 {
@@ -440,7 +440,7 @@ h1, h2, h3, h4 {
 }
 
 .members-table tr:hover td {
-  background: rgba(201, 168, 76, 0.04);
+  background: rgba(198, 40, 40, 0.06);
 }
 
 .members-table .name { color: var(--text-bright); font-weight: 600; }
@@ -454,7 +454,7 @@ h1, h2, h3, h4 {
   border-radius: 50%;
   margin-right: 8px;
 }
-.member-status.founder { background: var(--gold); }
+.member-status.founder { background: var(--gold-light); }
 .member-status.veteran { background: #3b82f6; }
 .member-status.member { background: #22c55e; }
 .member-status.inactive { background: var(--text-muted); }
@@ -506,7 +506,7 @@ h1, h2, h3, h4 {
   display: inline-block;
   padding: 12px 32px;
   background: var(--gold);
-  color: var(--bg-dark);
+  color: #fff;
   font-weight: 700;
   font-size: 0.875rem;
   text-transform: uppercase;
@@ -517,7 +517,7 @@ h1, h2, h3, h4 {
   transition: background 0.2s;
 }
 
-.btn:hover { background: var(--gold-light); color: var(--bg-dark); }
+.btn:hover { background: var(--gold-light); color: #fff; }
 
 .btn-outline {
   background: transparent;
@@ -526,7 +526,7 @@ h1, h2, h3, h4 {
 }
 
 .btn-outline:hover {
-  background: rgba(201, 168, 76, 0.1);
+  background: rgba(198, 40, 40, 0.12);
   color: var(--gold-light);
 }
 
