@@ -1,0 +1,7 @@
+[[Category:Ultima Online]]
+[[Category:Sonoma]]
+[[Game::Ultima Online]]
+[[Shard name::Sonoma]]
+[[Clan::Sinners Among Saints]]
+[[Clan abbr::SAS]]
+[[Character::Nymm]]

@@ -1,0 +1,191 @@
+<BASE HREF="http://www.ronalds.com/main/">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<head>
+<SCRIPT>
+   <!-- Hide from old browsers
+  
+   var expDays = 30;
+   var exp = new Date(); 
+   exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
+
+   function Who(info){
+        // Who
+                var VisitorName = GetCookie('VisitorName')
+                if (VisitorName == null) {
+                        VisitorName = prompt("Who are you?");
+                        SetCookie ('VisitorName', VisitorName, exp);
+                }
+
+        return VisitorName;
+   }
+
+   function When(info){
+        // When
+                var rightNow = new Date()
+                var WWHTime = 0;
+                WWHTime = GetCookie('WWhenH')
+                
+                WWHTime = WWHTime * 1
+                var lastHereFormatting = new Date(WWHTime);  // Date-i-fy that number
+                var intLastVisit = (lastHereFormatting.getYear() * 10000)+(lastHereFormatting.getMonth() * 100) + lastHereFormatting.getDate()
+                var lastHereInDateFormat = "" + lastHereFormatting;  // Gotta use substring functions
+                var dayOfWeek = lastHereInDateFormat.substring(0,3)
+                var dateMonth = lastHereInDateFormat.substring(4,11)
+                var timeOfDay = lastHereInDateFormat.substring(11,16)
+                var year = lastHereInDateFormat.substring(23,25)
+                var WWHText = dayOfWeek + ", " + dateMonth + " at " + timeOfDay // display
+
+
+        
+                SetCookie ("WWhenH", rightNow.getTime(), exp)
+
+        return WWHText;
+   }
+
+   function Count(info){
+        // How many times
+                var WWHCount = GetCookie('WWHCount')
+                if (WWHCount == null) {
+                        WWHCount = 0;
+                }
+                else{
+                        WWHCount++;
+                }
+                SetCookie ('WWHCount', WWHCount, exp);
+
+
+        return WWHCount;
+   }
+
+
+
+   function set(){
+        VisitorName = prompt("Who are you?");
+        SetCookie ('VisitorName', VisitorName, exp);
+        SetCookie ('WWHCount', 0, exp);
+        SetCookie ('WWhenH', 0, exp);
+   }
+
+   function getCookieVal (offset) {  
+        var endstr = document.cookie.indexOf (";", offset);  
+        if (endstr == -1)    
+                endstr = document.cookie.length;  
+                return unescape(document.cookie.substring(offset, endstr));
+   }
+
+   function GetCookie (name) {  
+        var arg = name + "=";  
+        var alen = arg.length;  
+        var clen = document.cookie.length;  
+        var i = 0;  
+        while (i < clen) {    
+        var j = i + alen;    
+        if (document.cookie.substring(i, j) == arg)      
+                return getCookieVal (j);    
+                i = document.cookie.indexOf(" ", i) + 1;    
+                if (i == 0) break;   
+        }  
+        return null;
+   }
+
+   function SetCookie (name, value) {  
+        var argv = SetCookie.arguments;  
+        var argc = SetCookie.arguments.length;  
+        var expires = (argc > 2) ? argv[2] : null;  
+        var path = (argc > 3) ? argv[3] : null;  
+        var domain = (argc > 4) ? argv[4] : null;  
+        var secure = (argc > 5) ? argv[5] : false;  
+        document.cookie = name + "=" + escape (value) + 
+        ((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + 
+        ((path == null) ? "" : ("; path=" + path)) +  
+        ((domain == null) ? "" : ("; domain=" + domain)) +    
+        ((secure == true) ? "; secure" : "");
+   }
+
+   function DeleteCookie (name) {  
+        var exp = new Date();  
+        exp.setTime (exp.getTime() - 1);  
+        // This cookie is history  
+        var cval = GetCookie (name);  
+        document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+
+   }
+
+
+   // Unhide -->
+  </SCRIPT>
+</head>
+
+
+
+
+<BODY TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#0000FF" BACKGROUND="http://www.ronalds.com/background.gif" vink="#FF0000">
+
+<CENTER><IMG SRC="logo.gif" ></CENTER>
+
+
+<script>
+     document.write("][-][ail, <b>" + Who() + "</b>. Thee hast visited <b>" + Count() + "</b> time(s). The last time thine arrived was <b>" + When() +"</b>.")
+</script> <BR>
+
+
+<P>Welcome all who come to this ancient place.  Here is the gathering place of the old Sosarian army.  Here is where we gather and will continue to gather for the better of all guilds.  They left us alone here, abandoned and now we have no side...we take the side of whoever pays us more.  We are out there for financial gain.  Operating in this way, we will accomplish much, we are looking for volunteers;  we need volunteers who will not be scared to fight for their own financial gain...volunteers who will defend the guild's interests and uphold our laws on all plains of the world of UO.  If you choose to continue, and learn more about us, then be warned:  we are not friendly to tresspassers...unless paid to be.
+<BR><marquee>
+<CENTER>
+<H2>
+Praise the day when the Sosarian Army will once again rule the world!</H2></CENTER>
+</marquee>
+<CENTER><APPLET CODE="Firework.class" codebase="http://www.geocities.com/SiliconValley/Pines/1825/" WIDTH="399" HEIGHT="349"><PARAM NAME="AnimationSpeed" VALUE="50"><PARAM NAME="RocketSoundtrack" VALUE="fire.au"><PARAM NAME="RocketStyleVariability" VALUE="10"><PARAM NAME="MaxRocketNumber" VALUE="9"><PARAM NAME="MaxRocketExplosionEnergy" VALUE="850"><PARAM NAME="MaxRocketPatchNumber" VALUE="90"><PARAM NAME="MaxRocketPatchLength" VALUE="68"><PARAM NAME="Gravity" VALUE="400"></APPLET></CENTER>
+
+<CENTER>The Java is really screwy. Sometimes it works, other times it doesn't.</CENTER>
+
+
+<CENTER>This page is maintained by...</CENTER>
+
+<CENTER><FONT COLOR="#3333FF">R</FONT><FONT COLOR="#999999">o</FONT><FONT COLOR="#3333FF">s</FONT><FONT COLOR="#999999">t</FONT><FONT COLOR="#3333FF">r</FONT><FONT COLOR="#999999">a</FONT><FONT COLOR="#3333FF">x</FONT></CENTER>
+
+<center>
+<!-- BEGIN LINKEXCHANGE CODE -->
+        <a href="http://ad.linkexchange.com/X354806/gotoad.map"
+        target="_top">
+        <img width=440 height=40 border=1 ismap 
+        alt="LinkExchange"
+        src="http://ad.linkexchange.com/X354806/logoshowad?free"></a>
+        <br>
+        <font size=1><a href="http://www.linkexchange.com/"
+        target="_top">LinkExchange Member</a></font><br>
+        <!-- END LINKEXCHANGE CODE --> 
+</center>
+</BODY>
+
+<SCRIPT language="Javascript">
+<!--
+
+// FILE ARCHIVED ON 19980614071134 AND RETRIEVED FROM THE
+// INTERNET ARCHIVE ON 20050104103608.
+// JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+// ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+// SECTION 108(a)(3)).
+
+   var sWayBackCGI = "http://web.archive.org/web/19980614071134/";
+
+   function xLateUrl(aCollection, sProp) {
+      var i = 0;
+      for(i = 0; i < aCollection.length; i++)
+         if (aCollection[i][sProp].indexOf("mailto:") == -1 &&
+             aCollection[i][sProp].indexOf("javascript:") == -1)
+            aCollection[i][sProp] = sWayBackCGI + aCollection[i][sProp];
+   }
+
+   if (document.links)  xLateUrl(document.links, "href");
+   if (document.images) xLateUrl(document.images, "src");
+   if (document.embeds) xLateUrl(document.embeds, "src");
+
+   if (document.body && document.body.background)
+      document.body.background = sWayBackCGI + document.body.background;
+
+//-->
+
+</SCRIPT>
+</HTML>

@@ -1,0 +1,5 @@
+[[Category:Ultima Online]]
+[[Category:Chesapeake]]
+[[Game::Ultima Online]]
+[[Shard name::Chesapeake]]
+[[Character::BloodCrypt]]

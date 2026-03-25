@@ -1,0 +1,7 @@
+[[Category:Ultima Online]]
+[[Category:Siege Perilous]]
+[[Game::Ultima Online]]
+[[Shard name::Siege Perilous]]
+[[Clan::Sinners Among Saints]]
+[[Clan abbr::SAS]]
+[[Character::BloodCrypt]]

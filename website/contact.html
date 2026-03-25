@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Sinners Among Saints</title>
+  <meta name="description" content="Get in touch with the Sinners Among Saints gaming guild.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">SAS</a>
+    <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-header">
+  <h1>Contact <span style="color: var(--gold);">Us</span></h1>
+  <p>Old guild member? Want to share screenshots or stories? We want to hear from you.</p>
+</header>
+
+<section class="section">
+  <form id="contact-form" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name / Character Name</label>
+      <input type="text" id="name" name="name" placeholder="e.g. Rivan of SAS" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+    </div>
+
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option value="general">General Inquiry</option>
+        <option value="member">Former / Current Member</option>
+        <option value="screenshots">Submit Screenshots</option>
+        <option value="history">History Correction or Addition</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="brand">Sinners Among Saints</div>
+  <p>&copy; 1996&ndash;2026 Sinners Among Saints. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

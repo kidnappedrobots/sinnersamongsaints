@@ -1,0 +1,219 @@
+/* css Zen Garden default style v1.01 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+body { 
+	font: Tahoma; 
+	color: #000000;
+	background-color: #000000; 
+	margin: 0px; 
+	padding: 0px;
+	text-align: center;
+	}
+p { 
+	padding: 0px;
+	font: 14px sans-serif; 
+	margin-top: 6px;
+	margin-bottom: 6px;
+	text-align: justify;
+	}
+
+h1,h2,h3,h4 {
+	margin-top: 1px;
+	padding: 0px;
+	}
+
+h3 { 
+	font: bold 13pt Tahoma;
+	margin-bottom: 0px; 
+	color: #000000;
+	padding-bottom: 0px;
+	}
+h4 {
+	font: bold 14pt Tahoma;
+	margin-bottom: 0px;
+	color: #000000;
+	padding-bottom:0px;
+	}
+#supportingText h3 span,#preamble h3 span {
+	padding-bottom: 4px;
+	background: url(pskull.gif) no-repeat 0 0;
+	padding-left: 24px;
+	}
+#supportingText h4 span,#preamble h4 span {
+	padding-bottom: 4px;
+	background: url(mario3.gif) no-repeat 0 0;
+	padding-left: 24px;
+	}
+
+#linkList h3 span {
+	padding-bottom: 4px;
+	background: url(flower2.gif) no-repeat 0 30%;
+	padding-left: 14px;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000000;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #000000;
+	}
+a:hover, a:active { 
+	text-decoration: underline; 
+	color: #000000;
+	}
+acronym {
+	font-weight: bold;
+	border-bottom: 1px dotted #bbbbbb;
+	}
+
+
+/* specific divs */
+#container { 
+	background: url(bg_mainB.gif) repeat-y; 
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+	position: relative;
+	}
+		#pageHeader { 
+			background: url(SAS1.jpg) no-repeat center top; 
+			width: 604px;
+			height: 141px;
+			float: left;
+			}
+
+		#quickSummary { 
+			background: url(bg_header2.jpg) no-repeat left top; 
+			width: 178px;
+			height: 117px;
+			float: right;
+			}
+
+		#preamble {
+			margin-left: 31px;
+			padding: 20px;
+			padding-top: 1px;
+			padding-bottom: 30px;
+			padding-right: 15px;
+			width: 548px;
+			clear: both;
+			
+			}
+#supportingText {
+	margin-left: 31px;
+	margin-right: 5px;
+	padding: 0px 20px;
+	width: 548px;
+	position: relative;
+	}
+
+#preamble h3 {
+	margin-top: 25px;
+	}
+
+#linkList {
+	width: 148px;
+	font: 10px Tahoma; 
+	position: absolute;
+	top: 219px;
+	left: 628px;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#footer {
+	text-align: center;
+	font: bold 12px Tahoma;
+	padding: 20px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	border-top: 1px dashed #000000; 
+	}
+
+/* ----- OTHER ------------------------------------------------------------------------------------------------- */
+
+#lselect,#larchives,#lresources {
+	padding: 0px 15px 45px 15px;
+	margin: 0px;
+	}
+
+#explanation,#participation,#benefits,#requirements {
+	margin-top: 0px;
+	padding-top: 0px;
+	}
+
+#explanation h3 span {
+	margin-top: 20px;
+	}
+
+#linkList h3 {
+	font-size: 15px;
+	padding: 3px 3px 3px 1px;
+	color: #000000;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	}
+
+#lselect ul, #larchives ul, #lresources ul {
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	}
+
+#lselect li, #larchives li, #lresources li {
+	padding: 5px 0px;
+	background: url(bullet.gif) no-repeat 0 50%;
+	}
+
+#lselect li a {
+	display: block;
+	}
+
+#lselect li a.c {
+	display: inline;
+	}
+
+#linkList #lselect ul li {
+    border-bottom: 1px solid #000000;
+    display: block;
+    padding: 5px 0 5px 15px;
+    }
+
+#linkList #larchives ul li {
+    border-bottom: 1px solid #000000;
+    display: block;
+    padding: 5px 0 5px 15px;
+    }
+
+#linkList #lresources ul li {
+    border-bottom: 1px solid #000000;
+    display: block;
+    padding: 5px 0 5px 15px;
+    }
+
+#pageHeader h1 span,#pageHeader h2 span,#quickSummary p.p1 {
+	display: none;
+	}
+
+#quickSummary p.p2 {
+	text-align: left;
+	color: #000000;
+	font: 12px sans-serif;
+	width: 120px;
+	padding: 145px 0px 0px 15px;
+	}
